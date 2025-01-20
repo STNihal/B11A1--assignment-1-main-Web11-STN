@@ -70,7 +70,7 @@ margin-bottom: 16px;
 }
 
 #t2{
-    color: rgb(14, 14, 14);
+color: rgb(14, 14, 14);
 font-size: 56px;
 font-weight: 700;
 text-align: left;
@@ -80,18 +80,19 @@ margin-bottom: 24px;
 #t3{
     width: 270px ;
     color: rgb(255, 255, 255);
+    text-align: center;
+    padding:17px 34px;
     font-size: 18px;
     border-radius: 8px;
     background-color: rgb(0, 106, 80);
-    text-align: center;
-    padding:17px 34px;
+    
 
 }
 
 
 .bannerPic{
-    padding-top: 50px;
-    padding-bottom: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
 padding-right: 60px;
 padding-left: 60px;
 } 
@@ -110,16 +111,18 @@ padding-left: 60px;
 
 #content2{
     color: rgba(14, 14, 14, 0.7);
-font-size: 16px;
-font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .vis{       
     display: flex;
     margin: 0px 160px;
-    justify-content: space-between;
-    gap: 24px;
     margin-bottom: 48px;
+    gap: 24px;
+    justify-content: space-between;
+    
+    
 }
 
 .vision {
@@ -165,11 +168,15 @@ background-color: rgb(247, 235, 207);
     display: inline-block;
     background-color: #007BFF;
     color: #fff;
+    text-decoration: none;
     padding: 11px 20px;
     border-radius: 8px;
-    text-decoration: none;
     font-weight: bold;
+    
+    
 }
+
+
 /* Learn more */
 #vis1 .btnVis {
     border-radius: 8px;
@@ -198,6 +205,42 @@ background-color: rgb(255, 194, 57);
 #vis3 .btnVis:hover {
     color: rgb(255, 194, 57);
     background-color: #3e0202;
+}
+
+/* challenge */
+ 
+.quote{
+    margin: 0px 160px;
+    border-radius: 16px;
+    margin-bottom: 80px;
+    background-color: white;
+    background-image: url(assets/quote-bg.png);
+    background-position: 24px 19.5px;
+    background-repeat: no-repeat;
+    padding: 48px 24px;
+ }
+
+.quote h2{
+ font-size: 20px;
+ font-weight: 600;
+ color:rgba(14, 14, 14, 0.8);
+ margin-bottom: 4px;
+ line-height: 24px;
+}
+
+.quote p{
+    color: rgba(14, 14, 14, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#q{
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 
