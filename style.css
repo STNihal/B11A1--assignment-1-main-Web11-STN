@@ -300,7 +300,89 @@ background-color: rgb(255, 194, 57);
     gap: 12px;
 }
 
+/* Donation */
 
+.donation{
+    margin: 80px 160px 0px;
+}
+
+.donation p{
+    font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+color: rgba(14, 14, 14, 0.7);
+margin-bottom:32px ;
+}
+
+.donation h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 24px;  
+}
+
+.amount{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px ;
+    gap: 24px;
+}
+
+.amount .TK200{
+    background-color: rgb(198, 228, 214);
+}
+
+.amount button{
+    font-size: 40px;
+font-weight: 700;
+border-radius: 16px;
+background-color: white;
+text-align: center;
+border: none;
+padding: 40px;
+}
+
+.amount button:hover{
+    background-color: rgb(203, 230, 204);
+    cursor:grabbing;
+}
+
+.otherAmount{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.otherAmount input[type=text] {
+    text-align: center;
+    height: 64px;
+    width: 1032px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+}
+
+.otherAmount input[type=submit] {
+    background-color: rgb(0, 106, 80);
+    height: 56px;
+    padding: 13px 26px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 80px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.otherAmount input[type=submit]:hover {
+    color: rgb(0, 106, 80);
+    cursor:grabbing;
+    background-color: rgb(54, 2, 2);
+}
 
 
 
